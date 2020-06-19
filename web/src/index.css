@@ -1,0 +1,25 @@
+button,
+input,
+label {
+  display: block;
+  outline: none;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input.error,
+textarea.error {
+  color: red;
+  border-color: red;
+}
+
+span.error[name],
+label.error {
+  color: red;
+}
+
+span.error[name] {
+  display: block;
+}
